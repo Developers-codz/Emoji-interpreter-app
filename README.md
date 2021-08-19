@@ -1,2 +1,2 @@
 # Emoji-interpreter-app
-Created with CodeSandbox
+It tells the name of the emoji made using react
