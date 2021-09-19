@@ -7,7 +7,12 @@ var emojiDictionary = {
   "😜": "Winking Face With Tongue",
   "😐": "Neutral Face",
   "😒": "Unamused face",
-  "😈": "Smiling Face with Horns"
+  "😈": "Smiling Face with Horns",
+  "😂": "Face with Tears of Joy",
+  "🤩": "Star-Stuck",
+  "😘": "Face blowing a kiss",
+  "😛": "Face with  tongue",
+  "🤪": "Zany Face"
 };
 // console.log(Object.keys(emojiDictionary));
 var emojiWeKnow = Object.keys(emojiDictionary);
@@ -40,7 +45,7 @@ export default function App() {
           return (
             <span
               onClick={() => emojiClickHandler(emoji)}
-              style={{ fontSize: "2rem", padding: "0.4rem" }}
+              style={{ fontSize: "2rem", padding: "0.8rem" }}
               key={emoji}
             >
               {emoji}
